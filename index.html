@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domenico Fabre-Barile - Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #e0e0e0;
+            background-color: #1a1a1a;
+            overflow-x: hidden;
+        }
+
+        /* Dynamic Background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/dark-wood.png') repeat, 
+                        linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+            z-index: -1;
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(44, 44, 44, 0.8); /* Semi-transparent dark background */
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 2px solid #4CAF50;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: rgba(44, 44, 44, 0.8); /* Semi-transparent dark background */
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Headings */
+        h1, h2 {
+            color: #4CAF50; /* Accent color */
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        /* Links */
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Project Bubbles */
+        .project-bubble {
+            background-color: rgba(51, 51, 51, 0.9); /* Semi-transparent dark background */
+            color: #e0e0e0;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            border: 1px solid #4CAF50;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .project-bubble:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+        }
+
+        .project-bubble strong {
+            display: block;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        /* Contact Info */
+        .contact-info {
+            background-color: rgba(51, 51, 51, 0.9); /* Semi-transparent dark background */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(44, 44, 44, 0.8); /* Semi-transparent dark background */
+            margin-top: 40px;
+            border-top: 2px solid #4CAF50;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Domenico Fabre-Barile</h1>
+        <p>Game Developer</p>
+    </header>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! My name is <strong>Domenico Fabre-Barile</strong>. I am a passionate game developer and tech enthusiast with a focus on creating immersive experiences and innovative solutions. I love building games, exploring blockchain technology, and pushing the boundaries of what's possible.</p>
+
+        <h2>My Projects</h2>
+        <div class="project-bubble">
+            <strong>The Apparition</strong>
+            A spine-chilling horror game designed to keep players on the edge of their seats. Built with Unity and featuring advanced AI for a truly terrifying experience.
+        </div>
+        <div class="project-bubble">
+            <strong>OffTheChain</strong>
+            A crypto trading simulation platform that allows users to practice trading in a risk-free environment. Built with React and integrated with real-time market data.
+        </div>
+        <div class="project-bubble">
+            <strong>ZombieGame (Coming Soon)</strong>
+            An action-packed survival game where players must fend off waves of zombies. Stay tuned for the release!
+        </div>
+
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p>If you'd like to get in touch, feel free to reach out via email or connect with me on GitHub.</p>
+            <p>Email: <a href="mailto:domenicobarille@gmail.com">domenicobarille@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/Fratched" target="_blank">github.com/Fratched</a></p>
+        </div>
+    </div>
+
+    
+       
+    
+</body>
+</html>
